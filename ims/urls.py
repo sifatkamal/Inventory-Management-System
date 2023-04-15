@@ -6,6 +6,6 @@ urlpatterns= [
 
     path("", views.base, name="base"),
 
-    path("", views.index, name="index"),
+    path("index/", views.index, name="index"),
 
 ]
